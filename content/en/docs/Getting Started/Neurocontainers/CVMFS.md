@@ -137,7 +137,7 @@ singularity shell /cvmfs/neurodesk.ardc.edu.au/containers/itksnap_3.8.0_20201208
 
 make sure that SINGULARITY_BINDPATH includes the directories you want to work with:
 ```bash
-export SINGULARITY_BINDPATH='/cvmfs,/mnt,/home'
+export SINGULARITY_BINDPATH='/cvmfs,/mnt,/home,/tmp'
 ```
 
 ### For WSL users
